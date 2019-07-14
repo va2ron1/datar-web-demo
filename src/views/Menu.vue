@@ -1,6 +1,6 @@
 <template>
-  <div class="row justify-content-center">
-    <div class="col-8 d-none d-md-block text-center">
+  <b-row class="justify-content-center">
+    <b-col cols="8" class="d-none d-md-block text-center">
       <span class="px-2">
         <b-button
           pill
@@ -27,8 +27,8 @@
           <feather type="search"></feather> Search data
         </b-button>
       </span>
-    </div>
-    <div class="col-8 d-block d-md-none text-center">
+    </b-col>
+    <b-col cols="8" class="d-block d-md-none text-center">
       <div class="py-2">
         <b-button
           pill
@@ -55,8 +55,8 @@
           <feather type="search"></feather> Search data
         </b-button>
       </div>
-    </div>
-  </div>
+    </b-col>
+  </b-row>
 </template>
 
 <script lang="ts">

@@ -1,12 +1,12 @@
 <template>
   <div id="app" class="h-100">
-    <div class="container d-flex">
-      <div class="row align-self-center w-100 mx-0">
-        <div class="col-12">
+    <b-container class="d-flex">
+      <b-row class="align-self-center w-100 mx-0">
+        <b-col cols="12">
           <router-view />
-        </div>
-      </div>
-    </div>
+        </b-col>
+      </b-row>
+    </b-container>
   </div>
 </template>
 
