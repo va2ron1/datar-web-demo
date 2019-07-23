@@ -87,13 +87,16 @@ export default class Search extends Vue {
     this.isLoading = true;
     axios
       .get(
-        "https://api.datar.online/v1/data/" +
+        "https://api.datar.online/v1/data/?auth_key=" +
           process.env.VUE_APP_DATAR_API_KEY +
-          "?search=" +
+          "&search=" +
           this.search
       )
       .then(response => {
         this.isLoading = false;
+        // for(let i = 0; i < 100; i++) {
+        //   this.items.push(response.data.data[0]);
+        // }
         this.items = response.data.data;
         this.totalRows = this.items.length;
       })

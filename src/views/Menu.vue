@@ -2,56 +2,24 @@
   <b-row class="justify-content-center">
     <b-col cols="8" class="d-none d-md-block text-center">
       <span class="px-2">
-        <b-button
-          pill
-          size="lg"
-          @click="
-            $router.push({
-              name: 'post'
-            })
-          "
-        >
+        <b-button pill size="lg" @click="$router.push({ name: 'submit' })">
           <feather type="edit-2"></feather> Post data
         </b-button>
       </span>
       <span class="px-2">
-        <b-button
-          pill
-          size="lg"
-          @click="
-            $router.push({
-              name: 'search'
-            })
-          "
-        >
+        <b-button pill size="lg" @click="$router.push({ name: 'search' })">
           <feather type="search"></feather> Search data
         </b-button>
       </span>
     </b-col>
     <b-col cols="8" class="d-block d-md-none text-center">
       <div class="py-2">
-        <b-button
-          pill
-          size="lg"
-          @click="
-            $router.push({
-              name: 'post'
-            })
-          "
-        >
+        <b-button pill size="lg" @click="$router.push({ name: 'submit' })">
           <feather type="edit-2"></feather> Post data
         </b-button>
       </div>
       <div class="py-2">
-        <b-button
-          pill
-          size="lg"
-          @click="
-            $router.push({
-              name: 'search'
-            })
-          "
-        >
+        <b-button pill size="lg" @click="$router.push({ name: 'search' })">
           <feather type="search"></feather> Search data
         </b-button>
       </div>
