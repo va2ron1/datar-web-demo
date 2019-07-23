@@ -33,7 +33,7 @@
             >Github</b-nav-item
           >
         </b-navbar-nav>
-        <span class="ml-auto">Copyright © 2019 va2ron1</span>
+        <span class="ml-auto">Copyright © 2019 Victor Ortiz</span>
       </b-navbar>
     </div>
   </div>
