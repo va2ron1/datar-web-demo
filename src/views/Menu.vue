@@ -1,5 +1,5 @@
 <template>
-  <b-row class="justify-content-center">
+  <b-row>
     <b-col cols="8" class="d-none d-md-block text-center">
       <span class="px-2">
         <b-button pill size="lg" @click="$router.push({ name: 'submit' })">
